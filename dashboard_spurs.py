@@ -112,28 +112,52 @@ for stat, value in team_stats[focus_team].items():
     st.write(f"**{stat}:** {value}")
     
 # Add Image (xG Race Chart)
-xg_image_path = "/Users/andreasbancheri/Documents/Barnsley/tottenham/xg_racechart.png"
-st.image(xg_image_path, caption="xG Race Chart", use_container_width=True)
+# Add Image (xG Race Chart)
+st.image("https://github.com/AndreasB1122/Spurs/blob/main/xg_racechart.png?raw=true", 
+         caption="xG Race Chart", use_container_width=True)
 
 # Add Image (Spain PPDA Analysis)
-spain_ppda_image_path = "/Users/andreasbancheri/Documents/Barnsley/tottenham/Spain_PPDA_Analysis.png"
-st.image(spain_ppda_image_path, caption="Spain PPDA Analysis", use_container_width=True)
+st.image("https://github.com/AndreasB1122/Spurs/blob/main/Spain_PPDA_Analysis.png?raw=true", 
+         caption="Spain PPDA Analysis", use_container_width=True)
 
 # Add Image (England PPDA Analysis)
-england_ppda_image_path = "/Users/andreasbancheri/Documents/Barnsley/tottenham/England_PPDA_Analysis.png"
-st.image(england_ppda_image_path, caption="England PPDA Analysis", use_container_width=True)
+st.image("https://github.com/AndreasB1122/Spurs/blob/main/England_PPDA_Analysis.png?raw=true", 
+         caption="England PPDA Analysis", use_container_width=True)
 
 # Add Image (England Pass Network Intervals)
-england_pass_network_image_path = "/Users/andreasbancheri/Documents/Barnsley/tottenham/England_PassNetwork_Intervals.png"
-st.image(england_pass_network_image_path, caption="England Pass Network Intervals", use_container_width=True)
+st.image("https://github.com/AndreasB1122/Spurs/blob/main/England_PassNetwork_Intervals.png?raw=true", 
+         caption="England Pass Network Intervals", use_container_width=True)
 
 # Add Image (Spain Pass Network Intervals)
-spain_pass_network_image_path = "/Users/andreasbancheri/Documents/Barnsley/tottenham/Spain_PassNetwork_Intervals.png"
-st.image(spain_pass_network_image_path, caption="Spain Pass Network Intervals", use_container_width=True)
+st.image("https://github.com/AndreasB1122/Spurs/blob/main/Spain_PassNetwork_Intervals.png?raw=true", 
+         caption="Spain Pass Network Intervals", use_container_width=True)
 
 # Add Image (Field Tilt)
-field_tilt_image_path = "//Users/andreasbancheri/Documents/Barnsley/tottenham/fieldtilt.png"
-st.image(field_tilt_image_path, caption="Field Tilt", use_container_width=True)
+st.image("https://github.com/AndreasB1122/Spurs/blob/main/fieldtilt.png?raw=true", 
+         caption="Field Tilt", use_container_width=True)
+
+# xg_image_path = "/Users/andreasbancheri/Documents/Barnsley/tottenham/xg_racechart.png"
+# st.image(xg_image_path, caption="xG Race Chart", use_container_width=True)
+
+# # Add Image (Spain PPDA Analysis)
+# spain_ppda_image_path = "/Users/andreasbancheri/Documents/Barnsley/tottenham/Spain_PPDA_Analysis.png"
+# st.image(spain_ppda_image_path, caption="Spain PPDA Analysis", use_container_width=True)
+
+# # Add Image (England PPDA Analysis)
+# england_ppda_image_path = "/Users/andreasbancheri/Documents/Barnsley/tottenham/England_PPDA_Analysis.png"
+# st.image(england_ppda_image_path, caption="England PPDA Analysis", use_container_width=True)
+
+# # Add Image (England Pass Network Intervals)
+# england_pass_network_image_path = "/Users/andreasbancheri/Documents/Barnsley/tottenham/England_PassNetwork_Intervals.png"
+# st.image(england_pass_network_image_path, caption="England Pass Network Intervals", use_container_width=True)
+
+# # Add Image (Spain Pass Network Intervals)
+# spain_pass_network_image_path = "/Users/andreasbancheri/Documents/Barnsley/tottenham/Spain_PassNetwork_Intervals.png"
+# st.image(spain_pass_network_image_path, caption="Spain Pass Network Intervals", use_container_width=True)
+
+# # Add Image (Field Tilt)
+# field_tilt_image_path = "//Users/andreasbancheri/Documents/Barnsley/tottenham/fieldtilt.png"
+# st.image(field_tilt_image_path, caption="Field Tilt", use_container_width=True)
 
 # Footer with additional details or metadata
 st.markdown("---")
